@@ -20,7 +20,7 @@
    - Undgår "callback hell" eller overdreven indlejring, der kan gøre koden rodet.
 
 4. **Naturligt til moderne JavaScript**:
-   - Understøttet nativt i ES2017+ uden behov for ekstra biblioteker.
+   - Understøttet natively i ES2017+ uden behov for ekstra biblioteker.
 
 #### **Ulemper**:
 1. **Omstændelighed**:
