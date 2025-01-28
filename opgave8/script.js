@@ -94,3 +94,16 @@ createApp({
     this.fetchCoffeeBeans();
   },
 }).mount("#app");
+
+/*
+Filtering and sorting explanation:
+The `filteredAndSortedBeans` computed property is used to filter and sort the coffee beans based on user input.
+
+1. Filtering: If `filterText` is not empty, it converts the filter text to lowercase and filters the `coffeeBeans` 
+array to include only those beans whose `beanType` (converted to lowercase) includes the filter text.
+
+2. Sorting: The filtered beans are then sorted by the `roasting` property. If `sortOrder` is "asc", 
+the beans are sorted in ascending order; otherwise, they are sorted in descending order.
+
+The resulting array of beans is returned and used in the template to display the filtered and sorted list of coffee beans.
+*/
